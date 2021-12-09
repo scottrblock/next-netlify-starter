@@ -37,21 +37,18 @@
 [[redirects]]
   from="https://www.phonetoroam.com/main/privacy"
   to="https://phonetonote.com/pages/privacy"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
 [[redirects]]
   from="https://www.phonetoroam.com/main/about"
   to="https://phonetonote.com/pages/about"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
 [[redirects]]
   from="https://www.phonetoroam.com/main/help"
   to="https://phonetonote.com/pages/support"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
@@ -93,21 +90,18 @@
 [[redirects]]
   from="https://phonetoroam.com/main/privacy"
   to="https://phonetonote.com/pages/privacy"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
 [[redirects]]
   from="https://phonetoroam.com/main/about"
   to="https://phonetonote.com/pages/about"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
 [[redirects]]
   from="https://phonetoroam.com/main/help"
   to="https://phonetonote.com/pages/support"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
@@ -149,21 +143,18 @@
 [[redirects]]
   from="/main/privacy"
   to="https://phonetonote.com/pages/privacy"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
 [[redirects]]
   from="/main/about"
   to="https://phonetonote.com/pages/about"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
 [[redirects]]
   from="/main/help"
   to="https://phonetonote.com/pages/support"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
@@ -177,13 +168,11 @@
 [[redirects]]
   from="https://www.phonetoroam.com/*"
   to="https://phonetonote.com/:splat"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
 
 [[redirects]]
   from="https://phonetoroam.com/*"
   to="https://phonetonote.com/:splat"
-  status = 200
   force = true
   headers = {X-From = "Netlify"}
