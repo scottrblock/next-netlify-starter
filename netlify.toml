@@ -4,3 +4,186 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
+
+
+[[redirects]]
+  from = "https://www.phonetoroam.com/messages/*"
+  to = "https://app.phonetonote.com/messages/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://www.phonetoroam.com/messages*"
+  to = "https://app.phonetonote.com/messages:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://www.phonetoroam.com/titles/*"
+  to = "https://app.phonetonote.com/titles/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://www.phonetoroam.com/hooks/*"
+  to = "https://app.phonetonote.com/hooks/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="https://www.phonetoroam.com/main/privacy"
+  to="https://phonetonote.com/pages/privacy"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="https://www.phonetoroam.com/main/about"
+  to="https://phonetonote.com/pages/about"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="https://www.phonetoroam.com/main/help"
+  to="https://phonetonote.com/pages/support"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://www.phonetoroam.com/clerk/receive/*"
+  to = "https://app.phonetonote.com/clerk/receive/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://phonetoroam.com/messages/*"
+  to = "https://app.phonetonote.com/messages/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://phonetoroam.com/messages*"
+  to = "https://app.phonetonote.com/messages:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://phonetoroam.com/titles/*"
+  to = "https://app.phonetonote.com/titles/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://phonetoroam.com/hooks/*"
+  to = "https://app.phonetonote.com/hooks/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="https://phonetoroam.com/main/privacy"
+  to="https://phonetonote.com/pages/privacy"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="https://phonetoroam.com/main/about"
+  to="https://phonetonote.com/pages/about"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="https://phonetoroam.com/main/help"
+  to="https://phonetonote.com/pages/support"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "https://phonetoroam.com/clerk/receive/*"
+  to = "https://app.phonetonote.com/clerk/receive/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/messages/*"
+  to = "https://app.phonetonote.com/messages/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/messages*"
+  to = "https://app.phonetonote.com/messages:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/titles/*"
+  to = "https://app.phonetonote.com/titles/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/hooks/*"
+  to = "https://app.phonetonote.com/hooks/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="/main/privacy"
+  to="https://phonetonote.com/pages/privacy"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="/main/about"
+  to="https://phonetonote.com/pages/about"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="/main/help"
+  to="https://phonetonote.com/pages/support"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from = "/clerk/receive/*"
+  to = "https://app.phonetonote.com/clerk/receive/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="https://www.phonetoroam.com/*"
+  to="https://phonetonote.com/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
+  from="https://phonetoroam.com/*"
+  to="https://phonetonote.com/:splat"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
