@@ -47,6 +47,12 @@
   headers = {X-From = "Netlify"}
 
 [[redirects]]
+  from="https://www.phonetoroam.com/pages/about"
+  to="https://phonetonote.com/pages/about"
+  force = true
+  headers = {X-From = "Netlify"}
+
+[[redirects]]
   from="https://www.phonetoroam.com/main/help"
   to="https://phonetonote.com/pages/support"
   force = true
